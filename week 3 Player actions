@@ -1,0 +1,15 @@
+#player_actions.py
+
+#This makes the user input usable when responding
+def check_play_again(user_input):
+    #Your code here
+#if" and "elif" will let you respond why "y" or "n" if you want to play the game.
+#The else will say "incorrect" if given a different response.
+    if user_input == "y":
+        print ("play again?")
+        elif user_input == "n":
+            print ("quit game")
+        else:
+            print ("incorrect!")
+#the input will ask if you want to play again with the possible responses
+check_play_again(input("Would you like to play again? Type Y for Yes or N for No: \n"))

@@ -1,0 +1,10 @@
+#Anthony Lopez
+#November 2nd, 2020
+
+# Def defines the lists of functions.
+# I Program it to to run a list, which is the "for num"
+# the function with print, it'll add each number.
+def lists (lists):
+    for num in lists:
+        print (num)
+lists ([10,19,20,24,16])

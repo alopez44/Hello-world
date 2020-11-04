@@ -1,0 +1,5 @@
+#Anthony Lopez
+#October 30th, 2020
+
+#This code sets a program where it repeats hello world 100 times.
+print("hello world\n"*100)

@@ -1,0 +1,28 @@
+#Anthony Lopez
+#October 30th, 2020
+  
+import turtle 
+  
+
+t = turtle.Turtle() 
+  
+# Someone inputs the length of sides
+sides = int(input("Enter the length of each sides of the square: ")) 
+  
+# Someone inputs color for polygon
+color = input("Enter the color name: ") 
+  
+# setting the fillcolor
+t.fillcolor(color) 
+  
+
+t.begin_fill() 
+  
+# drawing the square of side s 
+for _ in range(4): 
+  t.forward(sides) 
+  t.right(90) 
+  
+# Finishig up the coloring fill 
+t.end_fill() 
+

@@ -1,0 +1,9 @@
+#Anthony Lopez
+#October 30th, 2020
+
+#program lists of numbers that show up in a list format.
+#for numbers to come out i have to program it to print the list.
+lists = [6,9,10,4]
+
+for num in lists:
+    print (num)

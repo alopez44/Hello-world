@@ -1,0 +1,16 @@
+#Anthony Lopez
+#November 1st, 2020
+
+#i put the letter I for integers.
+
+for I in range(51):
+#so any number that corresponds with 3 or 5 is divisible by both.
+    if I % 3 == 0 and I % 5 == 0:
+        print("divisible by both")
+#if number can only be added up by threes, its divisible by 3.
+    elif I % 3 == 0:
+        print("divisible by three")
+#if the number can only be added by fives, its divisible by 5.
+    elif I % 5 == 0:
+        print("divisble by five")
+    print(I)

@@ -1,0 +1,29 @@
+#Anthony Lopez
+#November 10, 2020
+
+import my_module
+
+#loop should work
+#always put location of work
+my_module.loop()
+
+#list I chose to return from random stuff
+#print function added so it shows the random stuff you got
+#it will always show 07,11,19,21
+#will show on of those 4 numbers in the list
+number = my_module.lists(["04","07","11","19","21"])
+print(number)
+
+#Gives any odd number
+#it will give ya a number if it's not possible to divide by 2
+#any number that can divide by 2 will add a extra one to make odd
+interger = my_module.odd()
+print(interger)
+
+#A and B are calculated, then get the response to c once the two numbers are added
+math_problem = my_module.pythagorean(50,100)
+print (math_problem)
+
+#calculates A and B, then get a response to c after two numbers are added
+math_problem = my_module.pythagorean(69,120)
+print (math_problem)

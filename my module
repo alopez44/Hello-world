@@ -1,0 +1,35 @@
+#Anthony Lopez
+#November 10,2020
+
+#Imports help with different formulas.
+import math
+import random
+
+#this code will loop ten times and gives random numbers each loop.
+#Numbers are from twenty five to thirty five
+def loop():
+    for i in range (10):
+        print ("Random interger: ", random.randint(25,35))
+
+#The code defines the lists so it can be ran on driver_code
+#the return function brings back a random number from the lists
+def lists(random_stuff):
+    return random.choice (random_stuff)
+
+#code will give us one odd number from zero to one hundred.
+#returns and if it comes back even, it adds one to make it odd.
+def odd():
+    num = random.radint(0,100)
+    if not num %2 ==0:
+        return num
+
+#A and B will be calculated with a response to c
+#A square and B square are math.pow = so it both can be squared.
+# letter_c function is for a function that adds the return math.sqrt.
+#add any number to get a response
+#add two numbers on driver code
+def pythagorean(a,b):
+    code_a = math.pow (a,2)
+    code_b = math.pow (b,2)
+    code c = code_a + code_b
+    return math.sqrt(code_c)

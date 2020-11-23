@@ -1,0 +1,74 @@
+#Anthony Lopez
+#November 4th, 2020
+
+#Section One
+
+import main_character as mc
+
+#Character wakes up in their house
+
+
+#they want to make a meal
+def start(player):
+    print("youre still fuzzy from the nap huh, just look for something")
+    input()
+    print("look at cabnits and counter tops")
+    print("Hey, ", player.name, "! there isn't sheet in here. lets goo!")
+
+
+
+    #To do: Implement this
+#def inside():
+#    print("What would you like to do?")
+#    print("\A\" - Go rooftop")
+#    print("\B\" - Go go downstairs")
+print("since there isn't food here, choose where we go next.")
+input()
+#Different choices for A or B
+choice = input("where should we go? \n\"A\" - Go to rooftop\n\"B\" - Go downstairs")
+if choice == 'A':
+    print(". . .")
+    input()
+    print(". . .")
+    input()
+    print("THUD THUD THUD")
+    input()
+    print("FAILED")
+    input()
+#So if you choose A, you fall off and die and start over.
+if choice == 'B':
+    print(". . .")
+    input()
+    print("going downstairs")
+#(((((UPDATED PART))))
+#ADDING ITEMS   
+#player collects item once going downstairs at the end of section one
+#the item is a bookbag - so he can be able to pick more things up.
+#items1 = item.item("bookbag")
+#print (items1.name)
+#item1.name = "bookbag"
+#print(item1.name)
+#########item 2##########
+#items2 = item.item("snacks")
+#print (items2.name)
+#item2.name = "snacks"
+#print(item2.name
+#((((END))))
+    input()
+    print("you collected backpack")
+    input()
+    print("you collected snacks from counter")
+#adds the parameter to the end of the list called inventory in my player object
+#append means "add to the end"
+player.inventory.append("Beef Jerky")
+player.inventory.append("Granola Bar")
+#Player is walking infront of door
+print("lets go bro, we gotta go to the store.")
+input()
+#Leia is a dog
+#After saying the dogs name, return to main_game.py
+print("Hey Leia, lets go for a walk",player.followers[0].Drew+"!")
+
+
+
+

@@ -1,0 +1,17 @@
+#Anthony Lopez
+#November 23, 2020
+#Add import 
+#the class defines the items
+#init part creates tool
+#the random randint is number of items
+#bookbag class
+
+class<bookbag>
+import random
+
+class item:
+    number_of_items = random.randint(2,3)
+    name="bookbag"
+
+    def __init__ (self, name):
+        self.name = bookbag

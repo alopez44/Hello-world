@@ -1,0 +1,11 @@
+#Anthony Lopez
+#December 2nd, 2020
+
+class Main_Character:
+    name = ""
+    inventory = []
+    team = []
+    followers = []
+    has_tools = False
+
+

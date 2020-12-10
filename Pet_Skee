@@ -1,0 +1,12 @@
+#Anthony Lopez
+#December 2nd, 2020
+#this is a class for pets
+
+import random
+#theres a dog and a cat
+class Pet:
+    def __init__(self, name,animal_type):
+        self.name = name
+        self.animal_type = animal_type
+
+        

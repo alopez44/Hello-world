@@ -1,0 +1,88 @@
+#Anthony Lopez
+#December 2nd, 2020
+
+#Section One
+
+import Main_Character as mc
+import Pet_Skee as p
+#Character wakes up in their house
+
+
+###they want to make a meal
+##def test_level2(list):
+##    global_list = ["One", "Two", "Tree"]
+##    for item in list:
+##        for gitem in global_list:
+##            if item == gitem then:
+##                return True
+
+def start(player):
+    print("you're still fuzzy from the nap huh, just look for something to munch on.")
+    input()
+    print("look at cabinets and counter tops")
+    input()
+    print("Hey, ",player.name, "! there isn't sheet in here. lets goo!")
+    input()
+    print("since there isn't food here, choose where we go next.")
+    input()
+    choice = input("where should we go? \n\"A\" - Go to rooftop\n\"B\" - Go downstairs\n").upper()
+    while choice == 'A':
+        print(". . .")
+        input()
+        print(". . .")
+        input()
+        print("*THUD THUD THUD*")
+        input()
+        print("FAILED")
+        input()
+        print("You fell off the roof")
+        input()
+        choice = input("where should we go? \n\"A\" - Go to rooftop\n\"B\" - Go downstairs\n").upper()
+        
+    if choice == 'B':
+        print(". . .")
+        input()
+        print("*Heading Downstairs*")
+        input()
+        print("*You Collected a Backpack*")
+        input()
+        print("*You collected snacks*")
+        input()
+        player.inventory = []
+        player.inventory.append("Jerky")
+        player.inventory.append("Granola")
+        print(player.inventory)
+        input()
+
+        #adds the parameter to the end of the list called inventory in my player object
+        #append means "add to the end"
+        ################################
+        #Player is walking infront of door
+        print("lets go bro, we gotta go to the store.\nBefore that tho, we need to take someone")
+        input()
+        print("Choose between a Dog or cat:")
+        input()
+        ##choice = input("whats your pet?\n\"A\" - leia The Dog\n\"B\" - Simba the Cat")
+        ##if choice == 'A':
+        ##    print("You choosed Leia!")
+        ##    input()
+        ##if choice == 'B':
+        ##    print("You choosed Simba")
+        ##    input()
+        ###After saying the pets name, return to main_game.py
+        ##print("Hey, lets go for a walk",player.followers[0].player.name+"!")
+    #Player now chooses their first Pet
+        choice = input("whats your pet?\n\"A\" - leia The Dog\n\"B\" - Simba the Cat\n").upper()
+        #Add the player's choice to their team
+        #Pet need a name and type to be created
+        if choice == 'A':
+            player.team.append(p.Pet("Leia", "Doggo"))
+        elif choice == 'B':
+            player.team.append(p.Pet("Simba", "cat"))
+
+        #After adding the pet to the team, return to main_game.py
+        print("Congratulations! You got your pet", player.team[0].name+"!")
+
+
+
+

@@ -1,0 +1,45 @@
+#Anthony Lopez
+#December 2nd, 2020
+
+#Main game
+
+import Main_Character as mc
+import Section_One
+import Section_Two
+import Section_Three
+
+#this will be the main character.
+player = mc.Main_Character()
+
+#intro to game
+#emply inputs are avaliable to more foward
+print("Hey there!")
+input()
+print(" This is your house and it seems a little quiet")
+input() 
+print(" you've been asleep for 14 hours so lets get food")
+input() 
+
+
+#person getting introduced and section one begins.
+
+player.name = input("Lemme get your name?")
+print("So you're saying your name is",player.name)
+input()
+print("That's decent, let's go downstairs and eat.\nI'm Hungry!")
+print("***Objective: Collect items to create a sandwich***")
+input()
+print("Honestly I haven't seen any food in the fridge for like 4 days, so you may need to get food.")
+input()
+print("We can go to the diner room to look for something")
+input() 
+
+#Section One starts, once done itll be prompted by a message.
+Section_One.start(player)
+Section_Two.start(player)
+Section_Three.start(player)
+##level2_continue = Section_One.test_level2(list)
+##if level2_continue then
+###Main file is safe zone.
+
+print("We have to go back to safe zone")
